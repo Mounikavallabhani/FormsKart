@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StudentLogin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:fontFamily="@font/ralewayextrabold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textColor="@color/white"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+              android:fontFamily="@font/ralewayextrabold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PLease Login to your account"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:paddingRight="20dp"
+               android:drawableRight="@drawable/ic_phone_iphone_black_24dp"
+                android:paddingLeft="30dp"
+                android:gravity="center|left"
+                android:hint="Phone Number"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/studentbackground"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                />
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:paddingRight="20dp"
+                android:drawableRight="@drawable/ic_lock_outline_black_24dp"
+                android:paddingLeft="30dp"
+                android:gravity="center|left"
+                android:hint="Password"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/studentbackground"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:weightSum="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Remember me"/>
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password ?"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:fontFamily="@font/ralewayextrabold"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+                android:textColor="@color/white"
+                android:text="Sign in"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/signinbackground"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Or Login using social media"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:paddingRight="40dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Facebook"
+                android:paddingLeft="40dp"
+                android:drawableLeft="@drawable/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/facebookbaground"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:paddingRight="40dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Facebook"
+                android:paddingLeft="40dp"
+                android:drawableLeft="@drawable/google"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/studentbackground"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:textColor="@color/white"
+                android:text="Don't have an account ?"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:fontFamily="@font/ralewayextrabold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/green"
+                android:text="SIGN UP"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
