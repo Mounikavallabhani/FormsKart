@@ -8,6 +8,8 @@
     <color name="black">#000000</color>
     <color name="lightcolor">#EEEEEE</color>
     <color name="facebook">#3B5999</color>
+    <color name="light_white">#C2B9B9</color>
+    <color name="light_block">#DA353232</color>
 
 
 </resources>

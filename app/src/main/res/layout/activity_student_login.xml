@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="PLease Login to your account"
-                android:textColor="@color/white"/>
+                android:textColor="@color/light_white"/>
         </LinearLayout>
         <LinearLayout
 
@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <EditText
                 android:fontFamily="@font/ralewayextrabold"
                 android:paddingRight="20dp"
                android:drawableRight="@drawable/ic_phone_iphone_black_24dp"
@@ -54,9 +54,9 @@
                 android:layout_marginLeft="40dp"
                 android:background="@drawable/studentbackground"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 />
-            <TextView
+            <EditText
                 android:fontFamily="@font/ralewayextrabold"
                 android:paddingRight="20dp"
                 android:drawableRight="@drawable/ic_lock_outline_black_24dp"
@@ -68,7 +68,7 @@
                 android:layout_marginLeft="40dp"
                 android:background="@drawable/studentbackground"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -83,7 +83,7 @@
                 android:textSize="15dp"
                 android:gravity="center"
                 android:layout_weight="0.5"
-                android:textColor="@color/white"
+                android:textColor="@color/light_white"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Remember me"/>
@@ -92,7 +92,7 @@
                 android:textSize="15dp"
                 android:gravity="center"
                 android:layout_weight="0.5"
-                android:textColor="@color/white"
+                android:textColor="@color/light_white"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Forgot Password ?"/>
@@ -112,6 +112,7 @@
                 android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
                 android:textColor="@color/white"
                 android:text="Sign in"
+                android:textAllCaps="false"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:background="@drawable/signinbackground"/>
@@ -124,7 +125,7 @@
             <TextView
                 android:fontFamily="@font/ralewayextrabold"
                 android:gravity="center"
-                android:textColor="@color/white"
+                android:textColor="@color/light_white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Or Login using social media"/>
@@ -135,7 +136,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp">
+            android:layout_height="45dp">
             <TextView
                 android:fontFamily="@font/ralewayextrabold"
                 android:paddingRight="40dp"
@@ -156,13 +157,13 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp">
+            android:layout_height="45dp">
             <TextView
                 android:fontFamily="@font/ralewayextrabold"
                 android:paddingRight="40dp"
                 android:gravity="center"
-                android:textColor="@color/black"
-                android:text="Facebook"
+                android:textColor="@color/light_block"
+                android:text="Google"
                 android:paddingLeft="40dp"
                 android:drawableLeft="@drawable/google"
                 android:layout_width="match_parent"
